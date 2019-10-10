@@ -1,9 +1,251 @@
+<!-- 
+
+	Comentario de esta pagina: Hoy (09-10-2019) he tomado la descicion de ver por completo el curso de HTML 5 de pildoras informáticas, lo haré de la siguiente manera. En el index gobal de todas las páginas solo irá este archivo con la fecha de hoy, y dentro de esta pagina habrá links a paginas independientes donde pondre el contenido de unas 5 clases mas o menos, cada una con su fecha. Creo que actuaré de esta misma forma para las clases de la universidad, que ya empiezan pronto.
+	PD: Espero que no me roben esta laptop :'T
+	PD: Como joden estos mosquitos >:v
+-->
+<!DOCTYPE html>
 <html>
-<head>
-<title>Redirigir al navegador a otra URL</title>
-<META HTTP-EQUIV="REFRESH" CONTENT="2;URL=https://tomxp32.github.io/HTML5-guia-por-pildoras/">
-</head>
-<body>
-Esta página cambia en 2 segundos por la pagina de clases
-</body>
+	
+	<head>
+		<link rel="icon" type="image/png" href="favicon.png">
+		<style type="text/css">
+		body{
+			background-color: salmon
+		}
+		header{
+			margin: auto;
+			text-align: center;	
+			border: 1px solid black;
+			font-size: 	20px;
+			border-radius: 	50px;
+			background-color: darksalmon;
+			width: 80%;	
+		}
+		ul{
+			text-align: center;
+		}
+		li{
+			list-style: none;
+			border: 1px solid black;
+			padding: 3px;
+			margin-top: 5px;
+			margin-bottom: 5px;
+			margin-left: auto;
+			margin-right: auto;
+			width: 30%;
+			border-radius: 6px;
+			background-color: lightcoral;
+		}
+		p{
+			text-align: left;
+			padding: 10px;
+			margin-left: 30px;
+			margin-right: 30px;
+			font-size: 23px;
+		}
+		article h2{
+			text-align: center;
+			font-size: 30px;	
+		}
+		article h3
+		{
+			margin-left: 38px;
+			font-size:24px;
+			border: 1px solid black;
+			width: 40%;
+			background-color: thistle;
+			text-align: center;
+			border-radius: 5px;
+		}
+		article{
+			width: 70%;
+			border: 1px solid crimson;
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 20px;
+			border-radius: 20px;
+			background-color: lightsteelblue
+		}
+		.html li {
+			text-align: center;
+			background-color: lime;
+			display: inline-block;
+		}
+		.css li {
+			text-align: center;
+			background-color: springgreen;
+			display: inline-block;
+		}
+		.js li {
+			text-align: center;
+			background-color: aquamarine;
+			display: inline-block;
+		}
+		h4{
+			text-align: center;
+			margin: auto;
+			font-family: sans-serif;
+			font-size: 20px;
+			margin-bottom: 5%
+		}
+		</style>
+		<meta charset ="utf-8">
+		<title>Html 5 curso</title>
+	</head>
+	<body>
+		<header>
+			<h1>Curso de html</h1>
+			<h2>Pildoras informáticas 2014</h2>
+		</header>
+		<nav>
+			<ul>
+				<li><a href="#Clase_1 " style="color:greenyellow;">Clase 1: Que es HTML, CSS y Javascript</a></a></li>
+				<li><a href="#Clase_2" style="color:gold">Clase_2</a></li>
+				<li>Clase_3</li>
+				<li>Clase_4</li>
+			</ul>
+		</nav>
+		<section>
+			<article id="Clase_1">
+				<h2>Temario</h2>
+				<p>
+					<h4>HTML</h4>
+						<ul class="html">
+							<li >¿Que es HTML 5?</li>
+							<li>Componentes básicos</li>
+							<li>Estructura</li>
+						<li>Nuevos y viejos elementos</li>
+						</ul>
+					<h4>CSS</h4>
+						<ul class="css">
+							<li>Tipos de estilo y estructura</li>
+							<li>Aplicar CSS a HTML</li>
+							<li>CSS3 - Nuevas reglas</li>
+						</ul>
+					<h4>Javascript y HTML</h4>
+						<ul class="js">
+							<li>Que es y su importancia</li>
+							<li>Sintaxis</li>
+							<li>Selectores</li>
+							<li>Eventos</li>
+							<li>APIs</li>
+							<li>Librerías esternas</li>
+						</ul>
+					<h4>Audio y video</h4>
+						<ul>
+							<li>Video en HTML5 - reproductor, formatos, atributos</li>
+							<li>Audio en html5 - reproductor, atributos</li>
+						</ul>
+					<h4>Formularios y sus APIs</h4>
+						<ul>
+							<li>Formularios WEB</li>
+							<li>elementos</li>
+							<li>tipos de datos</li>
+							<li>atributos</li>
+							<li>nuevos elementos</li>
+						</ul>
+					<h4>API Canvas</h4>
+						<ul>
+							<li>Dibujos basicos</li>
+							<li>Imagenes en el lienzo</li>
+							<li>Animaciones en el lienzo</li>
+							<li>Video</li>
+						</ul>
+					<h4>API Drag and drop</h4>
+						<ul>
+							<li>Eventos nuevos</li>
+							<li>Metodos</li>
+							<li>Propiedades</li>
+						</ul>
+					<h4>Geolocalización</h4>
+						<ul>
+							<li>Métodos para detectar localización de visitantes</li>
+							<li>Trabajo con google maps</li>
+							<li>Métodos y objetos</li>
+						</ul>
+					<h4>Almacenamiento Web (Web storage)</h4>
+						<ul>
+							<li>Crear leer y eliminar datos</li>
+							<li>Tipos de almacenamiento</li>
+							<li>Métodos</li>
+							<li>Propiedades</li>
+						</ul>
+					<h4>API bases de datos (IndexdedDB)</h4>
+						<ul>
+							<li>BBDD, índices y transacciones</li>
+							<li>Abrir BBDD, agregar y eliminar objetos</li>
+							<li>Busquedas de datos</li>
+						</ul>
+					<h4>API manejo de archivos (API File)</h4>
+						<ul>
+							<li>Sistemas de archivos</li>
+							<li>Propiedades de archivos</li>
+							<li>El disco duro - Crear, eliminar, copiar</li>
+						</ul>
+					<h4>API Comunicación (API comunication)</h4>
+						<ul>
+							<li>AJAX</li>
+							<li>Cross document</li>
+							<li>Web sockets</li>
+						</ul>
+					<h4>API Web Worker</h4>
+						<ul>
+							<li>Los trabajadores Web</li>
+							<li>Detección de errores</li>
+						</ul>
+					<h4>API History (Historial)</h4>
+						<ul>
+							<li>Nuevos métodos de navegación en la web</li>
+							<li>Urls erróneas o falsas</li>
+						</ul>
+					<h4>API offline</h4>
+						<ul>
+							<li>Trabajo con caché</li>
+							<li>Manifiesto</li>
+							<li>Categorías</li>
+							<li>Comentarios</li>
+						</ul>
+				</p>
+				<h3>Clase 1: Que es HTML, CSS y Javascript (09-10-2019)</h3>
+				<h3>Que es <a href="https://es.wikipedia.org/wiki/HTML" style="color: blue" download="">HTML</a></h3>
+				<p>
+				HTML, siglas en inglés de HyperText Markup Language (‘lenguaje de marcas de hipertexto’), hace referencia al <strong>lenguaje de marcado para la elaboración de páginas web.</strong> Es un estándar que sirve de referencia del software que conecta con la elaboración de páginas web en sus diferentes versiones, define una estructura básica y un código (denominado código HTML) para la definición de contenido de una página web, como texto, imágenes, videos, juegos, entre otros. Es un estándar a cargo del World Wide Web Consortium (W3C). Se considera el lenguaje web más importante siendo su invención crucial en la aparición, desarrollo y expansión de la World Wide Web (WWW). Es el estándar que se ha impuesto en la visualización de páginas web y es el que todos los navegadores actuales han adoptado.
+				</p>
+				<h3>Hoja de estilos en cascada</h3>
+				<p>
+					CSS (siglas en inglés de Cascading Style Sheets), en español «Hojas de estilo en cascada», es un <strong>lenguaje de diseño gráfico para definir y crear la presentación de un documento</strong> estructurado escrito en un lenguaje de marcado. Es muy usado para establecer el diseño visual de los documentos web, e interfaces de usuario escritas en HTML o XHTML; el lenguaje puede ser aplicado a cualquier documento XML, incluyendo XHTML, SVG, XUL, RSS, etcétera. También permite aplicar estilos no visuales, como las hojas de estilo auditivas. <br><br>
+
+					Junto con HTML y JavaScript, CSS es una tecnología usada por muchos sitios web para crear páginas visualmente atractivas, interfaces de usuario para aplicaciones web y GUIs para muchas aplicaciones móviles (como Firefox OS). <br><br>
+
+					CSS está diseñado principalmente para <strong>marcar la separación del contenido del documento y la forma de presentación de este</strong>, características tales como las capas o layouts, los colores y las fuentes. Esta separación busca mejorar la accesibilidad del documento, proveer más flexibilidad y control en la especificación de características presentacionales, permitir que varios documentos HTML compartan un mismo estilo usando una sola hoja de estilos separada en un archivo .css, y reducir la complejidad y la repetición de código en la estructura del documento. <br><br>
+				</p>
+				<h3>JavaScript</h3>
+				<p>
+					JavaScript (abreviado comúnmente JS) es un lenguaje de programación interpretado, dialecto del estándar ECMAScript. Se define como orientado a objetos, basado en prototipos, imperativo, débilmente tipado y dinámico.
+
+					Se utiliza principalmente en su forma del lado del cliente (client-side), implementado como parte de un navegador web permitiendo mejoras en la interfaz de usuario y páginas web dinámicas aunque existe una forma de JavaScript del lado del servidor (Server-side JavaScript o SSJS). Su uso en aplicaciones externas a la web, por ejemplo en documentos PDF, aplicaciones de escritorio (mayoritariamente widgets) es también significativo. <br><br>
+
+					Desde el 2012, todos los navegadores modernos soportan completamente ECMAScript 5.1, una versión de javascript. Los navegadores más antiguos soportan por lo menos ECMAScript 3. La sexta edición se liberó en julio del 2015.
+
+					JavaScript se diseñó con una sintaxis similar a C, aunque adopta nombres y convenciones del lenguaje de programación Java. Sin embargo, Java y JavaScript tienen semánticas y propósitos diferentes.
+
+					Todos los navegadores modernos interpretan el código JavaScript integrado en las páginas web. Para interactuar con una página web se provee al lenguaje JavaScript de una implementación del Document Object Model (DOM). <br><br>
+
+					Tradicionalmente se venía utilizando en páginas web HTML para realizar operaciones y únicamente en el marco de la aplicación cliente, sin acceso a funciones del servidor. Actualmente es ampliamente utilizado para enviar y recibir información del servidor junto con ayuda de otras tecnologías como <strong>AJAX</strong>. JavaScript se interpreta en el agente de usuario al mismo tiempo que las sentencias van descargándose junto con el código HTML.
+
+					Desde el lanzamiento en junio de 1997 del estándar ECMAScript 1, han existido las versiones 2, 3 y 5, que es la más usada actualmente (la 4 se abandonó). En junio de 2015 se cerró y publicó la versión ECMAScript 6.
+				</p>
+				<footer></footer>
+			</article>
+			<article id="Clase_2">
+				<h2>Clase 1: Que es HTML, CSS y Javascript (09-10-2019)</h2>
+				<h3>Que es HTML</h3>
+				<p>
+				HTML, siglas en inglés de HyperText Markup Language (‘lenguaje de marcas de hipertexto’), hace referencia al lenguaje de marcado para la elaboración de páginas web. Es un estándar que sirve de referencia del software que conecta con la elaboración de páginas web en sus diferentes versiones, define una estructura básica y un código (denominado código HTML) para la definición de contenido de una página web, como texto, imágenes, videos, juegos, entre otros. Es un estándar a cargo del World Wide Web Consortium (W3C) o Consorcio WWW, organización dedicada a la estandarización de casi todas las tecnologías ligadas a la web, sobre todo en lo referente a su escritura e interpretación. Se considera el lenguaje web más importante siendo su invención crucial en la aparición, desarrollo y expansión de la World Wide Web (WWW). Es el estándar que se ha impuesto en la visualización de páginas web y es el que todos los navegadores actuales han adoptado.
+				</p>
+				<footer></footer>
+			</article>
+		</section>
+	</body>
 </html>
